@@ -1,0 +1,120 @@
+body{
+ 
+
+}
+.column{
+   
+    padding: 0;
+}
+.demo .title h2{
+    padding: 20px;
+}
+.img {
+    text-align: center;
+}
+.bot-row .column .img{
+    margin: 20px;
+    height: 360px;
+    overflow: hidden;
+}
+.bot-row .column-left .img{
+    margin-left: 0;
+    text-align: center;
+}
+.bot-row .column-right .img{
+    margin-right: 0;
+    text-align: center;
+}
+.bot-row .column-left .text-info1{
+    padding-left: 0;
+}
+.bot-row .column-right .text-info1{
+    padding-right: 0;
+}
+.bot-row .column .img img{
+    height: 100%;
+}
+.column-left .column-head{
+    padding-left: 0;
+}
+.demo-product .content .column-right,
+.bot-row .column {
+    overflow: hidden;
+    }
+.demo-product .content.top-row .column-right img{
+    height: 440px;
+}
+.column-left .text-info1{
+    padding-left: 0;
+}
+.content{
+    margin: 40px 0;
+}
+.quytrinh{
+    background-image: url('../Image/back01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quytrinh>div{
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.quytrinh .title h2{
+    -webkit-text-stroke: 3px black;
+    padding-top:20px;
+}
+.quytrinh .text-info1,
+.quytrinh .title h2{
+    color: white;
+
+}
+.quytrinh .content{
+    margin: 20px;
+}
+.quytrinh-nav-bar
+{
+    margin: 0;
+    padding: 0;
+}
+.quytrinh .column-right,
+.bot-row .column-left .img,
+.bot-row .column-right .img{
+    text-align: center;
+}
+.quytrinh-nav-bar a{
+    float: left;
+}
+.quytrinh-nav-bar button{
+    text-transform: uppercase;
+    width: 180px;
+    height: 55px;
+    border: none;
+    background-color: white;
+   color: black;
+    border-radius: 4px;
+    margin:36px 0 36px 36px;
+    font-weight: 900;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.quytrinh-nav-bar button:hover{
+    color: white;
+    background-color: var(--main-color);
+}
+.noi-dung{
+}
+@media only screen and (max-width: 768px) {
+    .bot-row .column-left .text-info1{
+        padding: 0;
+    }
+    .img.noi-dung{
+        margin: 0;
+    }
+    .column-right .column-head{
+        padding-left: 0;
+    }
+    .column-left .text-info1{
+        padding: 0;
+    }
+   
+}
